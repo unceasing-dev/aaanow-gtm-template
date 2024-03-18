@@ -15,5 +15,7 @@
 homepage: "https://aaanow.ai/"
 documentation: "https://github.com/unceasing-dev/aaanow-gtm-template"
 versions:
+  - sha: c7d6fafd4dad6c0585d7d5733df06000156e5236
+    changeNotes: fix name of template variable
   - sha: 67851e37817caa10749ed2b696b1d31fa1e90db9
     changeNotes: Initial Version
