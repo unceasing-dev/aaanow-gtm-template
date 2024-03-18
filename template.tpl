@@ -62,7 +62,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
 const setInWindow = require('setInWindow');
-setInWindow('aaanow_acm_id', data['ACM ID']);
+setInWindow('aaanow_acm_id', data.acmID);
 injectScript(
   'https://cdn.aaanow.ai/acm/',
   () => {
@@ -172,6 +172,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 18/03/2024, 17:47:47
+Created on 18/03/2024, 21:23:46
 
 
